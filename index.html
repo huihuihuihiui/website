@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>數學公式平台 - MathVerse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="home-page" class="page active">
+        <header class="home-header">
+            <nav>
+                <button id="home-nav-login-btn" class="btn login-btn">登入</button>
+            </nav>
+        </header>
+        <main class="home-main">
+            <section id="hero">
+                <h1 class="website-title">MathVerse</h1>
+                <button id="main-login-btn" class="btn hero-login-btn">登入</button>
+                <a href="#introduction" class="scroll-down-link" aria-label="Scroll down to introduction">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </section>
+
+            <section id="introduction">
+                <h2 class="section-title">核心特色概覽</h2>
+
+                <section class="feature-strip">
+                    <div class="feature-content-wrapper">
+                        <div class="feature-animation">
+                            <i class="fas fa-database animation-icon"></i>
+                             <div class="placeholder-shape shape-1"></div>
+                             <div class="placeholder-shape shape-2"></div>
+                        </div>
+                        <div class="feature-text">
+                            <h3>結構化知識庫</h3>
+                            <p>我們精心打造了一個分類清晰、包含嚴謹證明過程的數學公式資料庫。涵蓋代數、幾何、微積分等多個重要領域，方便您快速查找與學習。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="feature-strip">
+                     <div class="feature-content-wrapper">
+                        <div class="feature-text">
+                             <h3>AI 驅動擴充</h3>
+                            <p>整合先進的 AI 模型，能自動抓取網路上的數學知識、協助驗證證明的正確性，更能輔助探索創新的證明方法，是您強大的研究夥伴。</p>
+                        </div>
+                        <div class="feature-animation">
+                             <i class="fas fa-robot animation-icon"></i>
+                             <div class="placeholder-shape shape-3 rotating"></div>
+                             <div class="placeholder-shape shape-4 pulse"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="feature-strip">
+                     <div class="feature-content-wrapper">
+                        <div class="feature-animation">
+                              <i class="fas fa-users-gear animation-icon"></i>
+                              <div class="placeholder-shape shape-5 up-down"></div>
+                              <div class="placeholder-shape shape-6 left-right"></div>
+                        </div>
+                        <div class="feature-text">
+                             <h3>社群審核機制</h3>
+                            <p>引入 M-Bit 獎勵系統，激勵使用者積極參與證明的同行評審。通過社群的集體智慧，共同維護知識庫的高品質與可信度。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="feature-strip">
+                    <div class="feature-content-wrapper">
+                         <div class="feature-text">
+                              <h3>M-Bit 經濟生態</h3>
+                              <p>參與審核即可賺取平台代幣 M-Bit。使用 AI 進階功能需要消耗 M-Bit，形成了貢獻與回報的良性循環，未來更可能連結實體資源。</p>
+                         </div>
+                         <div class="feature-animation">
+                               <i class="fas fa-coins animation-icon"></i>
+                               <div class="placeholder-shape shape-7 rotating-inverse"></div>
+                               <div class="placeholder-shape shape-8 pulse"></div>
+                         </div>
+                     </div>
+                </section>
+
+                <section class="feature-strip">
+                     <div class="feature-content-wrapper">
+                        <div class="feature-animation">
+                              <i class="fas fa-handshake-angle animation-icon"></i>
+                               <div class="placeholder-shape shape-9 expanding"></div>
+                               <div class="placeholder-shape shape-10 fading"></div>
+                        </div>
+                        <div class="feature-text">
+                              <h3>開放協作平台</h3>
+                             <p>MathVerse 的成功基於社群的共同努力。我們邀請您貢獻寶貴的時間、知識甚至算力，一起建造這個開放、共享、永續發展的數學知識宇宙。</p>
+                         </div>
+                     </div>
+                 </section>
+
+            </section>
+
+        </main>
+        <footer class="home-footer">
+            <p>&copy; 2025 MathVerse - All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <div id="logged-in-page" class="page">
+        <aside id="sidebar">
+            <button id="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+            <div class="sidebar-content">
+                <div class="search-container sidebar-search">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="搜尋公式">
+                    <div class="ai-icon-container">
+                        <i class="fas fa-robot ai-icon"></i>
+                        <span class="tooltip">-1 M-Bit</span>
+                    </div>
+                </div>
+
+                <div id="mbit-display">
+                    <span id="mbit-icon">♢</span>
+                    <span id="mbit-count">100</span> M-Bit
+                </div>
+
+                <div class="sidebar-spacer"></div>
+
+                <div id="user-profile">
+                    <img src="https://placehold.co/40x40/888/EEE?text=U" alt="User Avatar" class="avatar">
+                    <span class="username">帥帥</span>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#about">關於我們</a>
+                    <a href="#donate">捐贈</a>
+                </nav>
+                 <button id="logout-btn" class="btn logout-btn">登出</button>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <div class="search-container main-search">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="搜尋公式或證明...">
+                 <div class="ai-icon-container">
+                    <i class="fas fa-robot ai-icon"></i>
+                    <span class="tooltip">-1 M-Bit</span>
+                 </div>
+            </div>
+
+            <div id="formula-list-container">
+                <div id="formula-list">
+                    <div class="formula-box" data-formula-id="quadratic">
+                        <h3>二次方程公式解</h3>
+                        <div class="formula-display">$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</div>
+                    </div>
+                     <div class="formula-box" data-formula-id="pythagorean">
+                        <h3>畢氏定理 (勾股定理)</h3>
+                        <div class="formula-display">$$a^2 + b^2 = c^2$$</div>
+                    </div>
+                    <div class="formula-box" data-formula-id="euler">
+                        <h3>歐拉公式</h3>
+                        <div class="formula-display">$$e^{i\pi} + 1 = 0$$</div>
+                    </div>
+                    <div class="formula-box" data-formula-id="integral">
+                        <h3>微積分基本定理</h3>
+                        <div class="formula-display">$$\int_a^b f(x) dx = F(b) - F(a)$$</div>
+                    </div>
+                     <div class="formula-box" data-formula-id="limit">
+                        <h3>重要極限</h3>
+                        <div class="formula-display">$$\lim_{x \to 0} \frac{\sin x}{x} = 1$$</div>
+                    </div>
+                    <div class="formula-box" data-formula-id="binet">
+                        <h3>比內公式 (費氏數列)</h3>
+                        <div class="formula-display">$$F_n = \frac{\phi^n - \psi^n}{\sqrt{5}}$$</div>
+                    </div>
+                    <div class="formula-box" data-formula-id="bayes">
+                        <h3>貝氏定理</h3>
+                        <div class="formula-display">$$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$</div>
+                    </div>
+                    <div class="formula-box" data-formula-id="gauss_sum">
+                        <h3>高斯求和</h3>
+                        <div class="formula-display">$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</div>
+                    </div>
+                     <div class="formula-box" data-formula-id="area_circle">
+                        <h3>圓面積</h3>
+                        <div class="formula-display">$$A = \pi r^2$$</div>
+                    </div>
+                     <div class="formula-box" data-formula-id="log_change">
+                        <h3>對數換底公式</h3>
+                        <div class="formula-display">$$\log_a b = \frac{\log_c b}{\log_c a}$$</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+     <div id="formula-detail-page" class="page">
+        <header class="detail-header">
+             <button id="back-to-list-btn" class="btn back-btn"><i class="fas fa-arrow-left"></i> 返回列表</button>
+             <h2 id="formula-title">公式標題</h2>
+        </header>
+        <main class="detail-main">
+            <div id="proof-content">
+            </div>
+            <div id="action-buttons">
+                <button class="btn approve-btn"><i class="fas fa-thumbs-up"></i> 贊成</button>
+                <button class="btn disapprove-btn"><i class="fas fa-thumbs-down"></i> 不贊成</button>
+                <button class="btn question-btn"><i class="fas fa-question-circle"></i> 有疑慮</button>
+            </div>
+            <div id="comment-section" style="display: none;">
+                 <textarea id="comment-textarea" placeholder="請說明您不贊成或有疑慮的原因..."></textarea>
+                 <button id="submit-comment-btn" class="btn submit-btn">提交</button>
+            </div>
+             <button id="submit-proof-btn" class="btn submit-btn" style="display: none;">提交證明</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
